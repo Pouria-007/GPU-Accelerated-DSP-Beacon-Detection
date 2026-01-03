@@ -20,7 +20,7 @@ GPU-accelerated frequency domain analysis for detecting periodic command-and-con
 
   <a href="https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/raw/main/docs/images/GPU-Accelerated_Beacon_Detection.webm">
 
-    <img src="docs/images/GPU-Accelerated_Beacon_Detection.gif" width="100%" alt="GPU-Accelerated Beacon Detection Demo">
+    <img src="https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/raw/main/docs/images/GPU-Accelerated_Beacon_Detection.gif" width="100%" alt="GPU-Accelerated Beacon Detection Demo">
 
   </a>
 
@@ -97,7 +97,7 @@ Interactive visualizations showing detection results:
 
   <a href="https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/raw/main/docs/images/EventRate_and_FFT_Spectrum.webm">
 
-    <img src="docs/images/EventRate_and_FFT_Spectrum.gif" width="100%" alt="Event Rate and FFT Spectrum Demo">
+    <img src="https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/raw/main/docs/images/EventRate_and_FFT_Spectrum.gif" width="100%" alt="Event Rate and FFT Spectrum Demo">
 
   </a>
 
@@ -121,7 +121,7 @@ Interactive visualizations showing detection results:
 
   <a href="https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/raw/main/docs/images/3D-Spectrogram.webm">
 
-    <img src="docs/images/3D-Spectrogram.gif" width="100%" alt="3D Spectrogram Demo">
+    <img src="https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/raw/main/docs/images/3D-Spectrogram.gif" width="100%" alt="3D Spectrogram Demo">
 
   </a>
 
