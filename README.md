@@ -2,7 +2,27 @@
 
 GPU-accelerated frequency domain analysis for detecting periodic command-and-control (C2) traffic in network captures. Optimized for NVIDIA RTX 5090 using RAPIDS (cuDF, CuPy, cuSignal).
 
-> **📹 [Watch Demo Video](docs/images/GPU-Accelerated_Beacon_Detection.webm)** - Overview of the GPU-accelerated beacon detection system
+---
+
+## 📸 **Screenshots & Demos**
+
+### **Live Demos (Animated)**
+
+> 🎬 **Auto-playing demos below** (click for full-quality video downloads)
+
+#### **🔍 GPU-Accelerated Beacon Detection (Overview)**
+
+<div align="center">
+
+  <a href="https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/raw/main/docs/images/GPU-Accelerated_Beacon_Detection.webm">
+
+    <img src="docs/images/GPU-Accelerated_Beacon_Detection.gif" width="100%" alt="GPU-Accelerated Beacon Detection Demo">
+
+  </a>
+
+  <p><i>Overview of the GPU-accelerated beacon detection system with Streamlit interface. (Click to download full video)</i></p>
+
+</div>
 
 ## Requirements
 
@@ -67,20 +87,37 @@ Interactive visualizations showing detection results:
 
 **Event Rate & FFT Spectrum**
 
-> **📹 [Watch Video](docs/images/EventRate_and_FFT_Spectrum.webm)** - Interactive visualization of event rate and FFT spectrum
+<div align="center">
 
-Shows time-domain event rate (top) and frequency-domain FFT spectrum (bottom) for top 5 detected beacons. The FFT reveals periodic patterns as sharp peaks above the noise floor.
+  <a href="https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/raw/main/docs/images/EventRate_and_FFT_Spectrum.webm">
+
+    <img src="docs/images/EventRate_and_FFT_Spectrum.gif" width="100%" alt="Event Rate and FFT Spectrum Demo">
+
+  </a>
+
+  <p><i>Time-domain event rate (top) and frequency-domain FFT spectrum (bottom) for top 5 detected beacons. The FFT reveals periodic patterns as sharp peaks above the noise floor. (Click to download full video)</i></p>
+
+</div>
 
 **Power Spectral Density (PSD) Comparison**
+
 ![PSD Comparison](docs/images/PSD_Comparison.png)
 
-Compares the spectral density of top 3 detected beacons against a benign background. Higher PSD values indicate stronger periodic signals, demonstrating the Signal-to-Noise Ratio (SNR) advantage of the detection algorithm.
+*Compares the spectral density of top 3 detected beacons against a benign background. Higher PSD values indicate stronger periodic signals, demonstrating the Signal-to-Noise Ratio (SNR) advantage of the detection algorithm.*
 
 **3D Spectrogram**
 
-> **📹 [Watch Video](docs/images/3D-Spectrogram.webm)** - Interactive 3D spectrogram visualization
+<div align="center">
 
-Interactive 3D visualization showing Frequency vs. Time vs. Magnitude (log-scale) for the primary infected host. Rotate and zoom to explore periodic patterns across the entire capture duration.
+  <a href="https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/raw/main/docs/images/3D-Spectrogram.webm">
+
+    <img src="docs/images/3D-Spectrogram.gif" width="100%" alt="3D Spectrogram Demo">
+
+  </a>
+
+  <p><i>Interactive 3D visualization showing Frequency vs. Time vs. Magnitude (log-scale) for the primary infected host. Rotate and zoom to explore periodic patterns across the entire capture duration. (Click to download full video)</i></p>
+
+</div>
 
 ### 4. Detailed Analysis Tab
 
