@@ -2,10 +2,9 @@
 
 GPU-accelerated frequency domain analysis for detecting periodic command-and-control (C2) traffic in network captures. Optimized for NVIDIA RTX 5090 using RAPIDS (cuDF, CuPy, cuSignal).
 
-<video controls width="100%">
-  <source src="docs/images/GPU-Accelerated_Beacon_Detection.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/blob/main/docs/images/GPU-Accelerated_Beacon_Detection.webm
+
+> **📹 [Watch Demo Video](docs/images/GPU-Accelerated_Beacon_Detection.webm)** - Overview of the GPU-accelerated beacon detection system
 
 ## Requirements
 
@@ -69,10 +68,8 @@ After detection completes, the **Overview** tab displays:
 Interactive visualizations showing detection results:
 
 **Event Rate & FFT Spectrum**
-<video controls width="100%">
-  <source src="docs/images/EventRate_and_FFT_Spectrum.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+
+> **📹 [Watch Video](docs/images/EventRate_and_FFT_Spectrum.webm)** - Interactive visualization of event rate and FFT spectrum
 
 Shows time-domain event rate (top) and frequency-domain FFT spectrum (bottom) for top 5 detected beacons. The FFT reveals periodic patterns as sharp peaks above the noise floor.
 
@@ -82,10 +79,8 @@ Shows time-domain event rate (top) and frequency-domain FFT spectrum (bottom) fo
 Compares the spectral density of top 3 detected beacons against a benign background. Higher PSD values indicate stronger periodic signals, demonstrating the Signal-to-Noise Ratio (SNR) advantage of the detection algorithm.
 
 **3D Spectrogram**
-<video controls width="100%">
-  <source src="docs/images/3D-Spectrogram.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+
+> **📹 [Watch Video](docs/images/3D-Spectrogram.webm)** - Interactive 3D spectrogram visualization
 
 Interactive 3D visualization showing Frequency vs. Time vs. Magnitude (log-scale) for the primary infected host. Rotate and zoom to explore periodic patterns across the entire capture duration.
 
