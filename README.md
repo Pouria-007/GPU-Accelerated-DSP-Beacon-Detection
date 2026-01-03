@@ -12,21 +12,11 @@ GPU-accelerated frequency domain analysis for detecting periodic command-and-con
 
 ### **Live Demos (Animated)**
 
-> 🎬 **Auto-playing demos below** (click for full-quality video downloads)
-
 #### **🔍 GPU-Accelerated Beacon Detection (Overview)**
 
-<div align="center">
+![GPU-Accelerated Beacon Detection Demo](docs/images/GPU-Accelerated_Beacon_Detection.gif)
 
-  <a href="https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/raw/main/docs/images/GPU-Accelerated_Beacon_Detection.webm">
-
-    <img src="docs/images/GPU-Accelerated_Beacon_Detection.gif" width="100%" alt="GPU-Accelerated Beacon Detection Demo">
-
-  </a>
-
-  <p><i>Overview of the GPU-accelerated beacon detection system with Streamlit interface. (Click to download full video)</i></p>
-
-</div>
+*Overview of the GPU-accelerated beacon detection system with Streamlit interface.*
 
 ---
 
@@ -93,17 +83,9 @@ Interactive visualizations showing detection results:
 
 #### **📊 Event Rate & FFT Spectrum**
 
-<div align="center">
+![Event Rate and FFT Spectrum Demo](docs/images/EventRate_and_FFT_Spectrum.gif)
 
-  <a href="https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/raw/main/docs/images/EventRate_and_FFT_Spectrum.webm">
-
-    <img src="docs/images/EventRate_and_FFT_Spectrum.gif" width="100%" alt="Event Rate and FFT Spectrum Demo">
-
-  </a>
-
-  <p><i>Time-domain event rate (top) and frequency-domain FFT spectrum (bottom) for top 5 detected beacons. The FFT reveals periodic patterns as sharp peaks above the noise floor. (Click to download full video)</i></p>
-
-</div>
+*Time-domain event rate (top) and frequency-domain FFT spectrum (bottom) for top 5 detected beacons. The FFT reveals periodic patterns as sharp peaks above the noise floor.*
 
 ---
 
@@ -117,17 +99,9 @@ Interactive visualizations showing detection results:
 
 #### **📊 3D Spectrogram**
 
-<div align="center">
+![3D Spectrogram Demo](docs/images/3D-Spectrogram.gif)
 
-  <a href="https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/raw/main/docs/images/3D-Spectrogram.webm">
-
-    <img src="https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/raw/main/docs/images/3D-Spectrogram.gif" width="100%" alt="3D Spectrogram Demo">
-
-  </a>
-
-  <p><i>Interactive 3D visualization showing Frequency vs. Time vs. Magnitude (log-scale) for the primary infected host. Rotate and zoom to explore periodic patterns across the entire capture duration. (Click to download full video)</i></p>
-
-</div>
+*Interactive 3D visualization showing Frequency vs. Time vs. Magnitude (log-scale) for the primary infected host. Rotate and zoom to explore periodic patterns across the entire capture duration.*
 
 ### 4. Detailed Analysis Tab
 
