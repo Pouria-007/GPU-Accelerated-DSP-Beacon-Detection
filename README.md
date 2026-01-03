@@ -24,6 +24,8 @@ GPU-accelerated frequency domain analysis for detecting periodic command-and-con
 
 </div>
 
+---
+
 ## Requirements
 
 - NVIDIA GPU with CUDA support (RTX 5090 recommended)
@@ -85,7 +87,7 @@ After detection completes, the **Overview** tab displays:
 
 Interactive visualizations showing detection results:
 
-**Event Rate & FFT Spectrum**
+#### **📊 Event Rate & FFT Spectrum**
 
 <div align="center">
 
@@ -99,13 +101,17 @@ Interactive visualizations showing detection results:
 
 </div>
 
-**Power Spectral Density (PSD) Comparison**
+---
+
+#### **📈 Power Spectral Density (PSD) Comparison**
 
 ![PSD Comparison](docs/images/PSD_Comparison.png)
 
 *Compares the spectral density of top 3 detected beacons against a benign background. Higher PSD values indicate stronger periodic signals, demonstrating the Signal-to-Noise Ratio (SNR) advantage of the detection algorithm.*
 
-**3D Spectrogram**
+---
+
+#### **📊 3D Spectrogram**
 
 <div align="center">
 
