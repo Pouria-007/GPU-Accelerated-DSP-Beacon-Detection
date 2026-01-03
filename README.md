@@ -2,8 +2,6 @@
 
 GPU-accelerated frequency domain analysis for detecting periodic command-and-control (C2) traffic in network captures. Optimized for NVIDIA RTX 5090 using RAPIDS (cuDF, CuPy, cuSignal).
 
-https://github.com/Pouria-007/gpu-accelerated-dsp-beacon-detection/blob/main/docs/images/GPU-Accelerated_Beacon_Detection.webm
-
 > **📹 [Watch Demo Video](docs/images/GPU-Accelerated_Beacon_Detection.webm)** - Overview of the GPU-accelerated beacon detection system
 
 ## Requirements
