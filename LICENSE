@@ -19,3 +19,28 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+SECURITY DISCLAIMER:
+
+This software is provided for RESEARCH AND EDUCATIONAL PURPOSES ONLY. It is a 
+proof-of-concept tool for demonstrating GPU-accelerated network traffic analysis.
+
+THE AUTHORS AND COPYRIGHT HOLDERS ARE NOT LIABLE FOR ANY SECURITY BREACHES, 
+DATA LOSS, SYSTEM COMPROMISE, OR ANY OTHER DAMAGES RESULTING FROM THE USE OR 
+MISUSE OF THIS SOFTWARE.
+
+Users are solely responsible for:
+- Ensuring proper security measures in their production environments
+- Complying with all applicable laws and regulations
+- Understanding the security implications of network traffic analysis
+- Properly securing any systems running this software
+
+This tool does NOT provide:
+- Real-time intrusion prevention
+- Guaranteed detection of all threats
+- Security assurances of any kind
+- Protection against malicious actors
+
+USE AT YOUR OWN RISK.

@@ -161,4 +161,6 @@ The project includes `botnet-capture-20110810-neris_modified.pcap` (75MB), a mod
 
 ## License
 
-This project is provided as-is for research and educational purposes.
+This project is provided as-is for research and educational purposes under the MIT License.
+
+**⚠️ SECURITY DISCLAIMER**: This software is a proof-of-concept tool and does NOT provide security guarantees. The authors are NOT LIABLE for any security breaches, data loss, or damages resulting from use or misuse of this software. USE AT YOUR OWN RISK. See [LICENSE](LICENSE) for full details.
