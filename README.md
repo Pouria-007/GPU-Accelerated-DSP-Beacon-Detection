@@ -2,6 +2,10 @@
 
 GPU-accelerated frequency domain analysis for detecting periodic command-and-control (C2) traffic in network captures. Optimized for NVIDIA RTX 5090 using RAPIDS (cuDF, CuPy, cuSignal).
 
+## 🎯 Overview
+
+**Command-and-control (C2) beaconing** is a critical cybersecurity threat where compromised systems periodically communicate with attacker-controlled servers to receive instructions, exfiltrate data, and maintain persistent access. Traditional detection methods struggle with modern botnets that use sophisticated evasion techniques: **jittered timing** (random delays), **domain generation algorithms (DGAs)**, and **low-frequency communication** that blends into normal network traffic. This project addresses these challenges by leveraging **GPU-accelerated digital signal processing (DSP)** to detect periodic patterns in network traffic that are invisible to rule-based systems. By applying Fast Fourier Transform (FFT) analysis across thousands of IP pairs simultaneously on GPU, we can identify subtle periodicities—even with 40% jitter—that indicate malicious beaconing behavior. This approach transforms network security from reactive signature-matching to proactive pattern recognition, enabling detection of zero-day botnets and advanced persistent threats (APTs) that evade traditional security tools.
+
 ---
 
 ## 📸 **Screenshots & Demos**
