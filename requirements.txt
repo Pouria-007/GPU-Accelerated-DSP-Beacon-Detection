@@ -1,0 +1,30 @@
+# GPU-Accelerated Beacon Detection Requirements
+# For NVIDIA RTX 5090 (Blackwell) with CUDA support
+
+# Core GPU libraries (RAPIDS/CUDA stack)
+# Install these via conda first:
+# conda install -c rapidsai -c conda-forge -c nvidia cusignal cudf cupy
+
+# Network packet processing
+scapy>=2.5.0
+
+# Visualization
+plotly>=5.18.0
+streamlit>=1.28.0
+
+# CLI formatting
+rich>=13.0.0
+
+# Standard scientific computing (usually included with RAPIDS)
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Process management
+psutil>=5.9.0
+
+# Fast PCAP parsing (10-50x faster than Scapy)
+dpkt>=1.9.8
+
+# Note: Install RAPIDS via conda for best compatibility:
+# conda install -c rapidsai -c conda-forge -c nvidia cusignal cudf cupy
+
