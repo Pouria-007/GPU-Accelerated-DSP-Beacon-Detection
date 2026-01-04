@@ -159,6 +159,30 @@ The project includes `botnet-capture-20110810-neris_modified.pcap` (75MB), a mod
 
 **Note**: The modified PCAP file is included in this repository for demonstration purposes. If you need the original unmodified capture, download it from the CTU-13 dataset website.
 
+## Real-Time Streaming Extensions
+
+This project focuses on **batch processing** of captured PCAP files for offline analysis. However, for users interested in **real-time network monitoring** with live traffic streams, several solutions can extend this work:
+
+**NVIDIA Holoscan** is a powerful SDK for building real-time streaming applications that could be adapted for continuous network monitoring. Holoscan provides:
+- Low-latency streaming pipelines optimized for edge AI workloads
+- Real-time data processing with GPU acceleration
+- Integration with sensor data streams and network interfaces
+- Deterministic scheduling for time-critical applications
+
+For real-time beacon detection, you could:
+1. Stream live network traffic (via libpcap, DPDK, or similar)
+2. Process packets in real-time using Holoscan's pipeline framework
+3. Apply the same GPU-accelerated FFT analysis on streaming windows
+4. Trigger alerts when periodic patterns are detected
+
+**Alternative approaches** for real-time monitoring include:
+- **Apache Kafka** + **Kafka Streams** for distributed real-time processing
+- **Apache Flink** for stateful stream processing
+- **NVIDIA DeepStream** for video/network analytics pipelines
+- **eBPF/XDP** for kernel-level packet processing
+
+The current batch-oriented approach provides a solid foundation for understanding beacon detection algorithms, which can then be adapted for real-time use cases.
+
 ## License
 
 This project is provided as-is for research and educational purposes under the MIT License.
